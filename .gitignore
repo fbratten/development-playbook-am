@@ -1,0 +1,19 @@
+# Node
+node_modules/
+
+# Documentation build
+_book/
+.docsify/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary
+*.tmp
+*.bak
+~$*

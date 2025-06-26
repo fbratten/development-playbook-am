@@ -1,0 +1,18 @@
+{
+  "name": "development-playbook-am",
+  "version": "0.1.0",
+  "description": "Documentation and development playbook for AlgoMingle",
+  "scripts": {
+    "serve": "docsify serve docs",
+    "validate": "node scripts/validate-docs.js",
+    "generate-toc": "node scripts/generate-toc.js",
+    "check-links": "markdown-link-check docs/**/*.md"
+  },
+  "devDependencies": {
+    "docsify-cli": "^4.4.4",
+    "markdown-link-check": "^3.11.2",
+    "marked": "^11.0.0",
+    "prettier": "^3.1.0"
+  },
+  "private": true
+}
